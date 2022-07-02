@@ -1,0 +1,258 @@
+/*=============================================*/
+/*==================Azul Frio==================*/
+/*=============================================*/
+.azul-frio{
+	background-color: #c2c6ce;
+	color: #0f1c30;
+}
+
+/*Scroll*/
+.azul-frio::-webkit-scrollbar{
+	width: 12px;
+	height: 12px;
+}
+.azul-frio::-webkit-scrollbar-thumb{
+	background-color: #668dc0;
+	border-radius: 5px;
+}
+.azul-frio::-webkit-scrollbar-thumb:hover{
+	background-color: #304d6e;
+}
+.azul-frio::-webkit-scrollbar-thumb:active{
+	background-color: #0f1c30;
+}
+
+/*Color de Fondo*/
+.azul-frio .fon-1{
+	background-color: #668dc0;
+	color: #0f1c30;
+}
+.azul-frio .fon-2{
+	background-color: #304a6e;
+	color: #c0d0ef;
+}
+.azul-frio .fon-3{
+	background-color: #0f1c30;
+}
+
+/*Enlaces*/
+.azul-frio .link-1{
+	color: #0f1c30;
+}
+.azul-frio .link-1:hover{
+	color: #c0d0ef;
+}
+.azul-frio .link-2{
+	color: #c0d0ef;
+}
+.azul-frio .link-2:hover{
+	background-color: #0f1c30;
+}
+.azul-frio .link-3{
+	background-color: #0f1c30;
+	color: #c0d0ef;
+}
+.azul-frio .link-3:hover{
+	background-color: #c0d0ef;
+	color: #0f1c30;
+}
+
+/*Borde de un enlace o un boton*/
+.azul-frio .borde{
+	border: 2px solid #c0d0ef;
+}
+
+/*Hero de Imagenes*/
+.azul-frio .hero{
+	color: #c0d0ef;
+}
+.azul-frio .hero::before{
+	background-color: rgba(48, 74, 110,0.6);
+}
+
+/*Etiqueta hr*/
+.azul-frio .hr-1{
+    border-color: #0f1c30;
+	background-color: #0f1c30;
+}
+.azul-frio .hr-2{
+	border-color: #c0d0ef;
+	background-color: #c0d0ef;
+}
+
+/*Color para el switch*/
+.azul-frio .lbl-switch{
+	background-color: #0f1c30;
+}
+.azul-frio .lbl-switch::after{
+	background-color: #c0d0ef;
+}
+
+#switch:checked ~ .lbl-switch,
+#switch-1:checked ~ .lbl-switch,
+#switch-2:checked ~ .lbl-switch{
+	background-color: #304a6e;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=============Elegante pero Oscuro============*/
+/*=============================================*/
+.elegante-oscuro{
+	background-color: #131313;
+	color: aliceblue;
+}
+
+/*Scroll*/
+.elegante-oscuro::-webkit-scrollbar{
+	width: 12px;
+	height: 12px;
+}
+.elegante-oscuro::-webkit-scrollbar-thumb{
+	background-color: #4b4b4b;
+	border-radius: 5px;
+}
+.elegante-oscuro::-webkit-scrollbar-thumb:hover{
+	background-color: aliceblue;
+}
+.elegante-oscuro::-webkit-scrollbar-thumb:active{
+	background-color: #1561f0;
+}
+
+/*Color de fondo*/
+.elegante-oscuro .fon-1{
+	background-color: #2b2b2b;
+	color: aliceblue;
+}
+.elegante-oscuro .fon-2{
+	background-color: #3b3b3b;
+	color: aliceblue;
+}
+.elegante-oscuro .fon-3{
+	background-color: #1561f0;
+	color: aliceblue;
+}
+
+/*Enlaces*/
+.elegante-oscuro .link-1{
+	color: aliceblue;
+	display: block;
+}
+.elegante-oscuro .link-1:hover{
+	color: #1561f0;
+}
+.elegante-oscuro .link-2{
+	color: aliceblue;
+	display: block;
+}
+.elegante-oscuro .link-2:hover{
+	background-color: #1561f0;
+	border: 2px solid #1561f0;
+}
+.elegante-oscuro .link-3{
+	background-color: #3b3b3b;
+	color: aliceblue;
+}
+.elegante-oscuro .link-3:hover{
+	background-color: #1561f0;
+}
+
+.elegante-oscuro .btn-oscuro{
+	color: #86868b;
+	background-color: #2b2b2b;
+}
+
+.elegante-oscuro .borde{
+	border: 2px solid aliceblue;
+}
+
+/*Hero de Imagenes*/
+.elegante-oscuro .hero::before{
+	background-color: rgba(134, 134, 139, 0.5);
+}
+
+/*Apartado de los cuentos*/
+.elegante-oscuro .text{
+	color: #86868b;
+}
+
+/*Etiqueta hr*/
+.elegante-oscuro .hr-1{
+	border-color: aliceblue;
+	background-color: aliceblue;
+}
+.elegante-oscuro .hr-2{
+	border-color: #1561f0;
+	background-color: #1561f0;
+}
+
+/*Boton ariba*/
+.elegante-oscuro .up:hover{
+	color: #1561f0;
+}
+
+/*cajas de contenido*/
+.elegante-oscuro .box-1{
+	background-color: rgba(19,19,19,0.6);
+}
+
+/*Color para el switch*/
+.elegante-oscuro .lbl-switch{
+	background-color: #3b3b3b;
+}
+.elegante-oscuro .lbl-switch::after{
+	background-color: aliceblue;
+}
+
+#switch:checked ~ .lbl-switch,
+#switch-1:checked ~ .lbl-switch, 
+#switch-2:checked ~ .lbl-switch{
+	background-color: #1561f0;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*===================Terrosos==================*/
+/*=============================================*/
+.terroso{
+	background-color: #f9f9f4;
+	color: #333333;
+}
+
+/*Fondo*/
+.terroso .fon-1{
+	background-color: #ffffff;
+	color: #333;
+}
+.terroso .fon-1 .text{
+	color: #beab72;
+}
+
+.terroso .fon-2{
+	background-color: #beab72;
+}
+
+/*Enlaces*/
+.terroso .link-1{
+	color: #333;
+}
+.terroso .link-1:hover{
+	color: #de2229;
+}
+.terroso .link-2{
+	color: #333;
+}
+.terroso .link-2:hover{
+	background-color: #de2229;
+}
+
+/*Borde de un enlace o un boton*/
+.terroso .borde{
+	border: 2px solid #333;
+}
+
+/*Hero de Imagenes*/
+.terroso .hero::before{
+	background-color: rgba(255,255,255,0.5);
+}
+/*=============================================*/

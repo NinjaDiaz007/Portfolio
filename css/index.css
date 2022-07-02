@@ -1,0 +1,270 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Arial";
+}
+
+main > section{
+	padding: 4rem 3.5em 1.5em 3.5em;
+}
+main > section h1{
+	text-align: center;
+}
+
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+.hero{
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 420px;
+	flex-direction: column;
+}
+.hero:before{
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.hero > img{
+	width: 200px;
+	border-radius: 50%;
+}
+
+.hero > hr{
+	width: 60%;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=============Navbar de la Pagina=============*/
+/*=============================================*/
+.nav-hor{
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 7rem;
+	width: 100%;
+	height: 60px;
+}
+.nav-hor a{
+	font-weight: 600;
+	font-size: 28px;
+	text-align: center;
+	text-decoration: none;
+}
+.nav-hor .movil{
+	display: none;
+	align-items: center;
+}
+.nav-hor .movil .lbl-switch{
+	width: 54px;
+	height: 26px;
+	border-radius: 50px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+.nav-hor .movil .lbl-switch::after{
+	content: '';
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	top: 4px;
+	left: 4px;
+	display: block;
+	transition: .5s;
+}
+
+.nav-hor .pc{
+	align-items: center;
+}
+.nav-hor .pc .lbl-switch{
+	width: 54px;
+	height: 26px;
+	border-radius: 50px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+.nav-hor .pc .lbl-switch::after{
+	content: '';
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	top: 4px;
+	left: 4px;
+	display: block;
+	transition: .5s;
+}
+.nav-hor .pc > a{
+	display: block;
+	padding: .3em .9em;
+	font-size: 22px;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+}
+
+#switch-1:checked ~ .lbl-switch:after, 
+#switch-2:checked ~ .lbl-switch:after{
+	left: 32px;
+}
+
+#btn-nav-ver:checked ~ .nav-ver{
+	height: 185px;
+	opacity: 1;
+}
+.nav-ver{
+	width: 100%;
+	height: 0px;
+	transition: all 0.5s;
+	overflow: hidden;
+	opacity: 0;
+}
+.nav-ver > a{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	padding: .5rem 1rem;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*==========Apartado del Portafolio============*/
+/*=============================================*/
+#Portafolio .imagenes{
+	gap: 25px;
+	padding: 5px 10px;
+	justify-content: space-around;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*========Apartado de mis Habilidades==========*/
+/*=============================================*/
+#Habilidades .imagenes{
+	justify-content: space-around;
+	gap: 20px;
+}
+#Habilidades .imagenes .caja{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	text-align: center;
+}
+#Habilidades .imagenes .caja img{
+	width: 100%;
+	height: 100%;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*==============Apartado Sobre Mi==============*/
+/*=============================================*/
+#SobreMi p{
+	font-size: 22px;
+	padding: 5px 15px;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*============Apartado de Contacto=============*/
+/*=============================================*/
+#Contacto .enlaces{
+	justify-content: space-evenly;
+}
+
+#Contacto .formu{
+	width: 60%;
+	padding: 20px;
+	margin: auto;
+	flex-direction: column;
+}
+#Contacto .formu > label{
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 5px;
+}
+#Contacto .formu > input[type=text]{
+	padding: 2px 9px;
+}
+#Contacto .formu > button{
+	margin: 15px auto 0 auto;
+	width: 80%;
+	padding: .3em 1em;
+	display: block;
+	border-radius: 30px;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*========Footer o Pie de Pagina Web===========*/
+/*=============================================*/
+.pie{
+	padding: 20px;
+	text-align: center;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*========Imagenes que usara un banner=========*/
+/*=============================================*/
+.baner-1{
+	background-image: url('../img/turntable.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+
+/*=============================================*/
+/*======Ajustar el tamano de la pantalla=======*/
+/*=============================================*/
+@media(min-width: 1024px){
+	.nav-hor .movil{
+		display: flex;
+	}
+	.nav-hor .pc{
+		display: none;
+	}
+
+	#Contacto .formu{
+		width: 50%;
+		padding: 20px;
+		margin: auto;
+		flex-direction: column;
+	}
+}
+
+@media(min-width: 980px){}
+/*=============================================*/

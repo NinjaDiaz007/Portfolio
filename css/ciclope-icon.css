@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'ciclope-icon';
+  src: url('./font/ciclope-icon.eot?8598423');
+  src: url('./font/ciclope-icon.eot?8598423#iefix') format('embedded-opentype'),
+       url('./font/ciclope-icon.woff2?8598423') format('woff2'),
+       url('./font/ciclope-icon.woff?8598423') format('woff'),
+       url('./font/ciclope-icon.ttf?8598423') format('truetype'),
+       url('./font/ciclope-icon.svg?8598423#ciclope-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ci-"]:before, [class*=" ci-"]:before {
+  font-family: "ciclope-icon";
+  speak: never;
+}
+
+.ci{
+  display: inline-block;
+  line-height: 1;
+  text-rendering: auto;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ci-bootstrap:before { content: '\e800'; } /* '' */
+.ci-che-down:before { content: '\e801'; } /* '' */
+.ci-che-left:before { content: '\e802'; } /* '' */
+.ci-che-right:before { content: '\e803'; } /* '' */
+.ci-che-up:before { content: '\e804'; } /* '' */
+.ci-css3-alt:before { content: '\e805'; } /* '' */
+.ci-facebook:before { content: '\e806'; } /* '' */
+.ci-google-plus:before { content: '\e807'; } /* '' */
+.ci-html5:before { content: '\e808'; } /* '' */
+.ci-instagram:before { content: '\e809'; } /* '' */
+.ci-js:before { content: '\e80a'; } /* '' */
+.ci-menu:before { content: '\e80b'; } /* '' */
+.ci-pinterest:before { content: '\e80c'; } /* '' */
+.ci-telegram:before { content: '\e80d'; } /* '' */
+.ci-twitter:before { content: '\e80e'; } /* '' */
+.ci-ubuntu:before { content: '\e80f'; } /* '' */
+.ci-whatsapp:before { content: '\e810'; } /* '' */
+.ci-whatsapp-square:before { content: '\e811'; } /* '' */
+.ci-youtube:before { content: '\e812'; } /* '' */

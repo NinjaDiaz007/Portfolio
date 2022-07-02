@@ -1,0 +1,369 @@
+*,*::before,*::after{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*=============================================*/
+/*==============Recursos Generales=============*/
+/*=============================================*/
+.flex{
+	display: flex;
+}
+
+.z-index{
+	z-index: 2;
+}
+
+.pointer{
+	cursor: pointer !important;
+}
+
+.none{
+	display: none !important;
+}
+
+.sticky{
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 22;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+.wd-1{
+	width: 10% !important;
+}
+.wd-2{
+	width: 20% !important;
+}
+.wd-3{
+	width: 30% !important;
+}
+.wd-4{
+	width: 40% !important;
+}
+.wd-5{
+	width: 50% !important;
+}
+.wd-6{
+	width: 60% !important;
+}
+.wd-7{
+	width: 70% !important;
+}
+.wd-8{
+	width: 80% !important;
+}
+.wd-9{
+	width: 90% !important;
+}
+.wd-10{
+	width: 100% !important;
+}
+
+.wd-s-1{
+	width: 8.333% !important;
+}
+.wd-s-2{
+	width: 16.666% !important;
+}
+.wd-s-3{
+	width: 24.999% !important;
+}
+.wd-s-4{
+	width: 33.32% !important;
+}
+.wd-s-5{
+	width: 41.65% !important;
+}
+.wd-s-6{
+	width: 50% !important;
+}
+.wd-s-7{
+	width: 58.31% !important;
+}
+.wd-s-8{
+	width: 66.64% !important;
+}
+.wd-s-9{
+	width: 74.97% !important;
+}
+.wd-s-10{
+	width: 83.30% !important;
+}
+.ls-11{
+	width: 91.63% !important;
+}
+.ls-12{
+	width: 100% !important;
+}
+/*=============================================*/
+
+/*.row{
+	display: flex !important;
+	flex-shrink: 0;
+	max-width: 100%;
+	padding-right: calc(1.5rem)*.5;
+	padding-left: calc(1.5rem)*.5;
+	margin-top: 0;
+}*/
+
+/*=============================================*/
+/*==========Margenes para la Pagina============*/
+/*=============================================*/
+.mr-0 {
+    margin-right: 0 !important;
+}
+.mr-1 {
+    margin-right: 0.25rem !important;
+}
+.mr-2 {
+    margin-right: 0.5rem !important;
+}
+.mr-3 {
+    margin-right: 1rem !important;
+}
+.mr-4 {
+    margin-right: 1.5rem !important;
+}
+.mr-5 {
+    margin-right: 3rem !important;
+}
+.mr-auto {
+    margin-right: auto !important;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*============Font-Size o Calibre==============*/
+/*=============================================*/
+.txt-auto{
+	font-size: auto !important;
+}
+.txt-12{
+	font-size: 12px !important;
+}
+.txt-13{
+	font-size: 13px !important;
+}
+.txt-14{
+	font-size: 14px !important;
+}
+.txt-15{
+	font-size: 15px !important;
+}
+.txt-16{
+	font-size: 16px !important;
+}
+.txt-17{
+	font-size: 17px !important;
+}
+.txt-18{
+	font-size: 18px !important;
+}
+.txt-20{
+	font-size: 20px !important;
+}
+.txt-22{
+	font-size: 22px !important;
+}
+.txt-24{
+	font-size: 24px !important;
+}
+.txt-25{
+	font-size: 25px !important;
+}
+.txt-26{
+	font-size: 26px !important;
+}
+.txt-27{
+	font-size: 27px !important;
+}
+.txt-28{
+	font-size: 28px !important;
+}
+.txt-29{
+	font-size: 29px !important;
+}
+.txt-30{
+	font-size: 30px !important;
+}
+.txt-32{
+	font-size: 32px !important;
+}
+.txt-34{
+	font-size: 34px !important;
+}
+.txt-36{
+	font-size: 36px !important;
+}
+.txt-38{
+	font-size: 38px !important;
+}
+.txt-40{
+	font-size: 40px !important;
+}
+.txt-44{
+	font-size: 44px !important;
+}
+.txt-48{
+	font-size: 48px !important;
+}
+.txt-50{
+	font-size: 50px !important;
+}
+.txt-56{
+	font-size: 56px !important;
+}
+.txt-58{
+	font-size: 58px !important;
+}
+.txt-60{
+	font-size: 60px !important;
+}
+.txt-62{
+	font-size: 62px !important;
+}
+.txt-64{
+	font-size: 64px !important;
+}
+.txt-66{
+	font-size: 66px !important;
+}
+.txt-68{
+	font-size: 68px !important;
+}
+.txt-69{
+	font-size: 69px !important;
+}
+.txt-70{
+	font-size: 70px !important;
+}
+.txt-72{
+	font-size: 72px !important;
+}
+.txt-90{
+	font-size: 90px !important;
+}
+.txt-100{
+	font-size: 100px !important;
+}
+.txt-110{
+	font-size: 110px !important;
+}
+.txt-120{
+	font-size: 120px !important;
+}
+.txt-130{
+	font-size: 130px !important;
+}
+.txt-140{
+	font-size: 140px !important;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*===============Gruesor del Texto=============*/
+/*=============================================*/
+.fw-1{
+	font-weight: 100 !important;
+}
+.fw-2{
+	font-weight: 200 !important;
+}
+.fw-3{
+	font-weight: 300 !important;
+}
+.fw-4{
+	font-weight: 400 !important;
+}
+.fw-5{
+	font-weight: 500 !important;
+}
+.fw-6{
+	font-weight: 600 !important;
+}
+.fw-7{
+	font-weight: 700 !important;
+}
+.fw-8{
+	font-weight: 800 !important;
+}
+.fw-9{
+	font-weight: 900 !important;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=============Estilos para los hr=============*/
+/*=============================================*/
+.punteado{}
+
+.deg-1{
+	border: 1.5px solid; 
+	border-radius: 1000px/10px; 
+	height: 0px; 
+	text-align: center;
+	z-index: 1;
+}
+.deg-2{
+	border: 3px solid; 
+	border-radius: 300px/10px; 
+	height: 0px; 
+	text-align: center;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=Colores de los textos y hover de las mismas=*/
+/*=============================================*/
+.dark:hover{
+	color: #3b3b3b !important;
+}
+.face:hover{
+	color: #3b5998 !important;
+}
+.teleg:hover{
+	color: #0088cc !important;
+}
+.whats:hover{
+	color: #128c7e/*00bb2d*/ !important;
+}
+
+.bootstrap{
+	color: #563d7c;
+}
+.c-sharp{
+	color: #684d95;
+}
+.html{
+	color: #e34c26;
+}
+.js{
+	color: #f0db4f
+}
+/*=============================================*/
+
+/*=============================================*/
+/*========Colores o Textos con Filtro==========*/
+/*=============================================*/
+.bootstrap-f{
+	filter: invert(25%) sepia(18%) saturate(2035%) hue-rotate(222deg) brightness(91%) contrast(83%);
+}
+.c-sharp-f{
+	filter: invert(35%) sepia(14%) saturate(1815%) hue-rotate(221deg) brightness(94%) contrast(98%);
+}
+.html5-f{
+	filter: invert(36%) sepia(51%) saturate(2192%) hue-rotate(346deg) brightness(92%) contrast(93%);
+}
+.css3-f{
+	filter: invert(28%) sepia(33%) saturate(6299%) hue-rotate(218deg) brightness(99%) contrast(91%);
+}
+.js-f{
+	filter: invert(91%) sepia(70%) saturate(1617%) hue-rotate(335deg) brightness(98%) contrast(100%);
+}
+/*=============================================*/

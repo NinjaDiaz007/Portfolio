@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Alan Diaz</title>
+
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/ciclope.css">
+		<link rel="stylesheet" href="./css/ciclope-icon.css">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/paletas-de-colores.css">
+		<link rel="icon" href="./img/tattoo.png">
+	</head>
+
+	<body class="azul-frio" id="Home" onload="PlaySong()">
+		<!-- Hero -->
+		<section class="hero flex baner-1">
+			<img class="z-index" src="./img/avatar.jpg">
+			<h1 class="z-index">Alan Fernando Diaz Gardu&#241;o</h1>
+			<hr class="z-index hr-2 deg-1">
+			<h2 class="z-index">Dise&#241;ador front-end</h2>
+		</section>
+
+		<!-- Navbar o Menu de navegacion -->
+		<header class="header fon-1 sticky">
+			<!-- Navbar estando en pantalla grande -->
+			<nav class="nav-hor flex">
+				<a href="#Home" class="link-1 flex">Alan Diaz</a>
+
+				<!-- Vista movil -->
+				<div class="movil flex">
+					<input type="checkbox" id="switch-2" class="none">
+					<label for="switch-2" class="lbl-switch mr-4"></label>
+					<label for="btn-nav-ver" class="txt-30 fw-8 pointer link-1"><i class="ci ci-menu"></i></label>
+				</div>
+
+				<!-- Vista computadora -->
+				<div class="pc flex">
+					<input type="checkbox" id="switch-1" class="none">
+					<label class="lbl-switch" for="switch-1"></label>
+					<a href="#Portafolio" class="link-1">Portafolio</a>
+					<a href="#Habilidades" class="link-1">Habilidad</a>
+					<a href="#SobreMi" class="link-1">Sobre Mi</a>
+					<a href="#Contacto" class="link-1">Contacto</a>
+				</div>
+			</nav>
+
+			<!-- Navbar estando en pantalla chica -->
+			<input type="checkbox" id="btn-nav-ver" class="none">
+			<div class="nav-ver fon-1">
+				<a href="#Portafolio" class="link-2">Portafolio</a>
+				<a href="#Habilidades" class="link-2">Habilidad</a>
+				<a href="#SobreMi" class="link-2">Sobre Mi</a>
+				<a href="#Contacto" class="link-2">Contacto</a>
+			</div>
+		</header>
+
+		<main>
+			<!-- Portafolio -->
+			<section id="Portafolio">
+				<h1>Portafolio</h1>
+				<hr class="hr-1 deg-1">
+				<div class="row imagenes">
+					<div class="col-sm-5">
+						<img src="./img/ProyectoPrincipioElectrico.png" class="wd-10">
+					</div>
+
+					<div class="col-sm-5">
+						<img src="./img/reproductor.png" class="wd-10">
+					</div>
+
+					<div class="col-sm-3">
+						<img src="./img/Calculadora.png" class="wd-10">
+					</div>
+				</div>
+			</section>
+
+			<!-- Habilidades -->
+			<section class="fon-2" id="Habilidades">
+				<h1>Mis Habilidades</h1>
+				<hr class="hr-2 deg-1">
+				<div class="imagenes row">
+					<div class="col-sm-3 caja">
+						<img src="./img/bootstrap.png" class="bootstrap-f">
+					</div>
+
+					<div class="col-sm-3 caja">
+						<img src="./img/c-sharp.png" class="c-sharp-f">
+					</div>
+
+					<div class="col-sm-3 caja">
+						<img src="./img/html5.png" class="wd-s-9 html5-f">
+					</div>
+
+					<div class="col-sm-3 caja">
+						<img src="./img/css3.png" class="wd-s-9 css3-f">
+					</div>
+
+					<div class="col-sm-3 caja">
+						<img src="./img/js.png" class="">
+					</div>
+				</div>
+			</section>
+
+			<!-- Sobre Mi -->
+			<section class="" id="SobreMi">
+				<h1>Sobre Mi</h1>
+				<hr class="hr-1 deg-1">
+				<div class="row">
+					<div class="col-sm-8">
+						<p>Soy una persona tranquila pero tambien, me gusta desarrollar proyectos escuchando musica de esa forma me con crentro al estar desarrollando.</p>
+						<p>Mis hobbit son:
+							<ul class="txt-20">
+								<li>Escuchar Musica</li>
+								<li>Videojuegos</li>
+								<li>Ver peliculas, series y animes en mi tiempo libre</li>
+							</ul>
+						</p>
+					</div>
+
+					<div class="col-sm-4">
+						<img src="./img/tattoo.png" class="wd-10">
+					</div>
+				</div>
+			</section>
+
+			<!-- Contacto -->
+			<section class="fon-2" id="Contacto">
+				<h1>Contacto</h1>
+				<hr class="hr-2 deg-1">
+
+				<form class="formu flex">
+					<label for="name">Nombre</label>
+					<input type="text" name="name" id="name">
+					<label for="email" class="mt-2">Correo</label>
+					<input type="email" name="email" id="email" placeholder="ejemplo: ejemplo@gmail.com">
+					<label for="mensaje" class="mt-2">Mensaje</label>
+					<textarea id="mensaje"></textarea>
+					<button type="submit" class="link-3">Enviar Mensaje</button>
+				</form>
+
+				<div class="enlaces flex txt-70">
+					<a href="https://www.facebook.com/profile.php?id=100004656399523" target="_blank" class="link-1 "><i class="ci ci-facebook"></i></a>
+					<a href="https://whatsapp.com/dl/" target="_blank" class="link-1"><i class="ci ci-whatsapp"></i></a>
+				</div>
+			</section>
+		</main>
+
+		<footer class="fon-1 pie">
+			<p>&copy; Alan Diaz 2022</p>
+		</footer>
+
+		<audio id="audi" autoplay>
+			<source src="./audio/energetic-indie-rock-jump.mp3" type="audio/mpeg">
+		</audio>
+
+		<script src="./js/main.js"></script>
+		<script src="./js/switch.js"></script>
+		<script src="./js/formulario.js"></script>
+	</body>
+</html>
